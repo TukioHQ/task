@@ -1,0 +1,7 @@
+- [Installation](installation.md)
+- [Usage](usage.md)
+- [Taskfile Versions](taskfile_versions.md)
+- [Examples](examples.md)
+- [Releasing Task](releasing_task.md)
+- [Alternative Task Runners](alternative_task_runners.md)
+- [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/TukioHQ/task)
