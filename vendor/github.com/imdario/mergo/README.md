@@ -55,7 +55,7 @@ If Mergo is useful to you, consider buying me a coffee, a beer or making a month
 - [OpenBazaar/openbazaar-go](https://github.com/OpenBazaar/openbazaar-go)
 - [kataras/iris](https://github.com/kataras/iris)
 - [michaelsauter/crane](https://github.com/michaelsauter/crane)
-- [go-task/task](https://github.com/go-task/task)
+- [go-task/task](https://github.com/TukioHQ/task)
 - [sensu/uchiwa](https://github.com/sensu/uchiwa)
 - [ory/hydra](https://github.com/ory/hydra)
 - [sisatech/vcli](https://github.com/sisatech/vcli)

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-task/task/v2/internal/execext"
-	"github.com/go-task/task/v2/internal/status"
-	"github.com/go-task/task/v2/internal/taskfile"
+	"github.com/TukioHQ/task/v2/core/execext"
+	"github.com/TukioHQ/task/v2/core/status"
+	"github.com/TukioHQ/task/v2/core/taskfile"
 )
 
 // Status returns an error if any the of given tasks is not up-to-date

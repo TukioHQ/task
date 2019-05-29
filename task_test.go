@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-task/task/v2"
-	"github.com/go-task/task/v2/internal/taskfile"
+	"github.com/TukioHQ/task/v2"
+	"github.com/TukioHQ/task/v2/core/taskfile"
 
 	"github.com/mitchellh/go-homedir"
 	"github.com/stretchr/testify/assert"

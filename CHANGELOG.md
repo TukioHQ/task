@@ -3,15 +3,15 @@
 ## v2.5.2 - 2019-05-11
 
 - Reverted YAML upgrade due issues with CRLF on Windows
-  ([#201](https://github.com/go-task/task/issues/201), [go-yaml/yaml#450](https://github.com/go-yaml/yaml/issues/450)).
+  ([#201](https://github.com/TukioHQ/task/issues/201), [go-yaml/yaml#450](https://github.com/go-yaml/yaml/issues/450)).
 - Allow setting global variables through the CLI
-  ([#192](https://github.com/go-task/task/issues/192)).
+  ([#192](https://github.com/TukioHQ/task/issues/192)).
 
 ## 2.5.1 - 2019-04-27
 
 - Fixed some issues with interactive command line tools, where sometimes
   the output were not being shown, and similar issues
-  ([#114](https://github.com/go-task/task/issues/114), [#190](https://github.com/go-task/task/issues/190), [#200](https://github.com/go-task/task/pull/200)).
+  ([#114](https://github.com/TukioHQ/task/issues/114), [#190](https://github.com/TukioHQ/task/issues/190), [#200](https://github.com/TukioHQ/task/pull/200)).
 - Upgraded [go-yaml/yaml](https://github.com/go-yaml/yaml) from v2 to v3.
 
 ## v2.5.0 - 2019-03-16
@@ -21,35 +21,35 @@
   [this install script](https://taskfile.dev/#/installation?id=install-script)
   to use the new taskfile.dev domain on scripts from now on.
 - Fixed to the ZSH completion
-  ([#182](https://github.com/go-task/task/pull/182)).
+  ([#182](https://github.com/TukioHQ/task/pull/182)).
 - Add [`--summary` flag along with `summary:` task attribute](https://taskfile.org/#/usage?id=display-summary-of-task)
-  ([#180](https://github.com/go-task/task/pull/180)).
+  ([#180](https://github.com/TukioHQ/task/pull/180)).
 
 ## v2.4.0 - 2019-02-21
 
 - Allow calling a task of the root Taskfile from an included Taskfile
   by prefixing it with `:`
-  ([#161](https://github.com/go-task/task/issues/161), [#172](https://github.com/go-task/task/issues/172)),
+  ([#161](https://github.com/TukioHQ/task/issues/161), [#172](https://github.com/TukioHQ/task/issues/172)),
 - Add flag to override the `output` option
-  ([#173](https://github.com/go-task/task/pull/173));
+  ([#173](https://github.com/TukioHQ/task/pull/173));
 - Fix bug where Task was persisting the new checksum on the disk when the Dry
   Mode is enabled
-  ([#166](https://github.com/go-task/task/issues/166));
+  ([#166](https://github.com/TukioHQ/task/issues/166));
 - Fix file timestamp issue when the file name has spaces
-  ([#176](https://github.com/go-task/task/issues/176));
+  ([#176](https://github.com/TukioHQ/task/issues/176));
 - Mitigating path expanding issues on Windows
-  ([#170](https://github.com/go-task/task/pull/170)).
+  ([#170](https://github.com/TukioHQ/task/pull/170)).
 
 ## v2.3.0 - 2019-01-02
 
 - On Windows, Task can now be installed using [Scoop](https://scoop.sh/)
-  ([#152](https://github.com/go-task/task/pull/152));
+  ([#152](https://github.com/TukioHQ/task/pull/152));
 - Fixed issue with file/directory globing
-  ([#153](https://github.com/go-task/task/issues/153));
+  ([#153](https://github.com/TukioHQ/task/issues/153));
 - Added ability to globally set environment variables
   (
-    [#138](https://github.com/go-task/task/pull/138),
-    [#159](https://github.com/go-task/task/pull/159)
+    [#138](https://github.com/TukioHQ/task/pull/138),
+    [#159](https://github.com/TukioHQ/task/pull/159)
   ).
 
 ## v2.2.1 - 2018-12-09
@@ -63,7 +63,7 @@
 - Added support for [including other Taskfiles](https://taskfile.org/#/usage?id=including-other-taskfiles) (#98)
   - This should be considered experimental. For now, only including local files is supported, but support for including remote Taskfiles is being discussed. If you have any feedback, please comment on #98.
 - Task now have a dedicated documentation site: https://taskfile.org
-  - Thanks to [Docsify](https://docsify.js.org/) for making this pretty easy. To check the source code, just take a look at the [docs](https://github.com/go-task/task/tree/master/docs) directory of this repository. Contributions to the documentation is really appreciated.
+  - Thanks to [Docsify](https://docsify.js.org/) for making this pretty easy. To check the source code, just take a look at the [docs](https://github.com/TukioHQ/task/tree/master/docs) directory of this repository. Contributions to the documentation is really appreciated.
 
 ## v2.1.1 - 2018-09-17
 
@@ -81,7 +81,7 @@
 - Expand environment variables on "dir", "sources" and "generates" (#116)
 - Fix YAML merging syntax (#112)
 - Add ZSH completion (#111)
-- Implement new `output` option. Please check out the [documentation](https://github.com/go-task/task#output-syntax)
+- Implement new `output` option. Please check out the [documentation](https://github.com/TukioHQ/task#output-syntax)
 
 ## v2.0.2 - 2018-05-01
 
@@ -95,10 +95,10 @@
 
 Version 2.0.0 is here, with a new Taskfile format.
 
-Please, make sure to read the [Taskfile versions](https://github.com/go-task/task/blob/master/TASKFILE_VERSIONS.md) document, since it describes in depth what changed for this version.
+Please, make sure to read the [Taskfile versions](https://github.com/TukioHQ/task/blob/master/TASKFILE_VERSIONS.md) document, since it describes in depth what changed for this version.
 
-* New Taskfile version 2 (https://github.com/go-task/task/issues/77)
-* Possibility to have global variables in the `Taskfile.yml` instead of `Taskvars.yml` (https://github.com/go-task/task/issues/66)
+* New Taskfile version 2 (https://github.com/TukioHQ/task/issues/77)
+* Possibility to have global variables in the `Taskfile.yml` instead of `Taskvars.yml` (https://github.com/TukioHQ/task/issues/66)
 * Small improvements and fixes
 
 ## v1.4.4 - 2017-11-19
